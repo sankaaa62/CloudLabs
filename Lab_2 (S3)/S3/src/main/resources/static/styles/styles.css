@@ -1,0 +1,78 @@
+body{
+  font-family: Chandas;
+}
+
+.bucket_list_item {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  cursor: pointer;
+  text-align: center;
+  margin: 30px;
+}
+
+.content__bucket_list_title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bucket_list_item .row .item_point {
+  height: 5px;
+  width: 15px;
+  border-radius: 0%;
+  border: none;
+  background: rgba(0, 0, 0, 0.53);
+  position: center;
+  margin-top: 13px;
+}
+
+.item_name {
+ margin-top: 5px;
+}
+
+.bucket_list_item .row .item_delete {
+  margin-left: 10px;
+  color: #000000;
+  margin-top: 5px;
+  font-size: small;
+  height: 30px;
+  text-align: center;
+}
+
+
+.item_object {
+  margin: 5px 15px;
+}
+
+.bucket_list_item .row .item_add_object {
+  color: #000000;
+}
+
+.bucket_list_item .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_object_delete .item_object_download {
+  margin-left: 5px;
+  color: red;
+  font-weight: bold;
+  height: 25px;
+  text-align: center;
+  margin: 20px;
+}
+
+.item_object_point{
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #000000;
+  position: center;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+.row * {
+  padding: 3px;
+}
+

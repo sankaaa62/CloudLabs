@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="styles/styles.css" rel="stylesheet">
+    <title>Vision</title>
+</head>
+<body>
+
+<div id="app">
+    <div class="content">
+        <div class="content__bucket_list_title">Выберите изображение:</div>
+        <div class="bucket_list_item" >
+            <div class="row">
+                <input type="file" class="item_add_photo" @change="addPhoto()"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
